@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+main {
+    display: flex;
+    /* align-items: center; */
+    margin: 60px auto;
+    width: 1066px;
+}
+
+#perfil {
+    width: 296px;
+    height: 400px;
+    margin: 40px 20px;
+    border: 1px dashed black;
+}
+
+#perfil > p {
+    font-size: 1.3em;
+    text-align: center;
+}
+
+#foto {
+    /* altura e largura temporario, so para indicar como deve ficar a foto */
+    width: 296px;
+    height: 296px;
+    border-radius: 50%;
+    border: 1px dashed black;
+}
+
+#secoes {
+    height: 500px;
+    width: 700px;
+    margin-top: 40px;
+    border: 1px dashed black;
+}
+
+#social {
+    border: 1px dashed black;
+}
